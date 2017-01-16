@@ -1,0 +1,41 @@
+﻿빌드 시작: 12/19/2016 11:09:40 AM
+     1>2 노드의 "E:\workspace\kisa\LinxFace\LinxFace\LinxFace.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Debug\LinxFace.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\LinxFace.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Neuro\Neurotec_Biometric_9_0_SDK\Include /IE:\software\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LINXFACE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\LinxFace.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Neuro\Neurotec_Biometric_9_0_SDK\Include /IE:\software\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LINXFACE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Neuro\Neurotec_Biometric_9_0_SDK\Include /IE:\software\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LINXFACE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\LinxFace.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LinxFace.cpp
+         LinxFace.cpp
+     1>e:\workspace\kisa\linxface\linxface\linxface.cpp(38): warning C4244: 'return' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LinxFace.dll.embed.manifest.res" Debug\LinxFace_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\kisa\LinxFace\Debug\LinxFace.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\software\opencv\build\x86\vc10\lib /LIBPATH:D:\Neuro\Neurotec_Biometric_9_0_SDK\Lib\Win32_x86 NBiometricClient.dll.lib NBiometrics.dll.lib NDevices.dll.lib NMedia.dll.lib NCore.dll.lib NLicensing.dll.lib opencv_core2411d.lib opencv_core2411.lib opencv_highgui2411d.lib opencv_highgui2411.lib opencv_imgproc2411d.lib opencv_imgproc2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LinxFace.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\workspace\kisa\LinxFace\Debug\LinxFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\kisa\LinxFace\Debug\LinxFace.lib" /MACHINE:X86 /DLL Debug\LinxFace.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\LinxFace.obj
+         Debug\stdafx.obj
+            E:\workspace\kisa\LinxFace\Debug\LinxFace.lib 라이브러리 및 E:\workspace\kisa\LinxFace\Debug\LinxFace.exp 개체를 생성하고 있습니다.
+       Manifest:
+         "Debug\LinxFace.dll.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LinxFace.dll.embed.manifest" /manifest Debug\LinxFace.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LinxFace.dll.embed.manifest.res" Debug\LinxFace_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\kisa\LinxFace\Debug\LinxFace.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\software\opencv\build\x86\vc10\lib /LIBPATH:D:\Neuro\Neurotec_Biometric_9_0_SDK\Lib\Win32_x86 NBiometricClient.dll.lib NBiometrics.dll.lib NDevices.dll.lib NMedia.dll.lib NCore.dll.lib NLicensing.dll.lib opencv_core2411d.lib opencv_core2411.lib opencv_highgui2411d.lib opencv_highgui2411.lib opencv_imgproc2411d.lib opencv_imgproc2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LinxFace.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\workspace\kisa\LinxFace\Debug\LinxFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\kisa\LinxFace\Debug\LinxFace.lib" /MACHINE:X86 /DLL Debug\LinxFace.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\LinxFace.obj
+         Debug\stdafx.obj
+            E:\workspace\kisa\LinxFace\Debug\LinxFace.lib 라이브러리 및 E:\workspace\kisa\LinxFace\Debug\LinxFace.exp 개체를 생성하고 있습니다.
+         LinxFace.vcxproj -> E:\workspace\kisa\LinxFace\Debug\LinxFace.dll
+       FinalizeBuildStatus:
+         "Debug\LinxFace.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\LinxFace.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\workspace\kisa\LinxFace\LinxFace\LinxFace.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.46
